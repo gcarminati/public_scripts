@@ -1,4 +1,4 @@
-column current_scn form 999999999999999999999
+column current_scn form 99999999999999999999
 col platform form a20
 select dbid, db_unique_name, (select version from v$instance) version, database_role, to_char(created, 'dd/mm/yy hh:mi') created, log_mode, flashback_on, current_scn, platform_name platform 
 from v$database;
