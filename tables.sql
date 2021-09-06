@@ -1,5 +1,5 @@
 select
-	dt.owner owner,
+  dt.owner owner,
   dt.table_name table_name,
   dt.num_rows,
   dt.blocks,
