@@ -1,0 +1,1 @@
+select 'alter system kill session '''||ses.sid||','||ses.serial#||',@'||ses.inst_id||''' immediate;' from gv$session ses, dba_jobs_running jobs where ses.sid=jobs.sid and ses.inst_id=jobs.instance and jobs.job_id=&job_id;
