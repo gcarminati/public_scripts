@@ -6,4 +6,3 @@
 6 | dbms_job_stop.sql | stop a dbms job | dba_jobs job ijob stop scheduler
 7 | dbms_job_enable.sql | enable a dbms job | dba_jobs job ijob enable scheduler
 8 | dbms_job_disable.sql | disable a dbms job | dba_jobs job ijob disable scheduler
-9 | dbms_job_without_sid.sql | list dbms jobs without a session | dba_jobs job ijob session scheduler
